@@ -1,11 +1,10 @@
 Package: tabellr
-Type: Package
-Title: Parse data from scb.se api
+Title: Create tabeles from SCB API
 Version: 0.1
-Author: Martin Löwing Jensen
-Maintainer: Martin Löwing Jense (martinlowingjensen@gmail.com)
-Description: Creates tables with data from scb.se´s api.
-License: General
+Authors@R: 
+    person("Martin", "Löwing Jensen", , "martinlowingjensen@gmail.com", role = c("aut", "cre"))
+Description: post to scb.se api and turn result into table
+License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.2.0
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
