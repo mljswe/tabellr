@@ -1,0 +1,13 @@
+Package: tabellr
+Type: Package
+Title: Parse data from scb.se api
+Version: 0.1
+Author: Martin Löwing Jensen
+Maintainer: Martin Löwing Jense (martinlowingjensen@gmail.com)
+Description: Creates tables with data from scb.se´s api.
+    use: from a page like statistikdatabasen.scb.se/pxweb/sv/ssd/etcetcetc; store api url in scb_url.txt
+    and body in scb_body.txt i folder. set p1 = path to that folder. Run scb_tabell(p1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
