@@ -4,8 +4,7 @@
 
 #' prepare json-post
 #'
-#' @description reads scb_body.txt (json-body) and scb_url.txt (url). designed
-#' @description to work with api at scb.se
+#' @description reads scb_body.txt (json-body) and scb_url.txt (url). designed to work with api at scb.se
 #' @return list: [1] = url [2] = body in json
 #' @param path_to_file file path to folder with scb_url.txt and scb_body.txt
 #' @details response format in body from scb.se is defined as 'px', but scb_sup changes it to json.
@@ -133,7 +132,6 @@ scb_meta_func <- function() {
 #' create table with data from scb.se
 #'
 #' @return df with data from selected indicator on scb.se
-#' @description top-level, creats table
 #' @description inner function loops over all lookups in scb_metadata.
 #' @example scb_tabell('C:/path/to/file/') where folder contains scb_url.txt and scb_body.txt. path_to deafults to 'p1'
 #' @export
