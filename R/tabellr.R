@@ -133,7 +133,6 @@ scb_meta_func <- function() {
 #'
 #' @return df with data from selected indicator on scb.se
 #' @description inner function loops over all lookups in scb_metadata.
-#' @example scb_tabell('C:/path/to/file/') where folder contains scb_url.txt and scb_body.txt. path_to deafults to 'p1'
 #' @export
 #'
 scb_tabell <- function(path_to = p1) {

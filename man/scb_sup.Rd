@@ -10,12 +10,10 @@ scb_sup(path_to_files = p1)
 \item{path_to_file}{file path to folder with scb_url.txt and scb_body.txt}
 }
 \value{
-list: [1] = url [2] = body in json
+list: \link{1} = url \link{2} = body in json
 }
 \description{
-reads scb_body.txt (json-body) and scb_url.txt (url). designed
-
-to work with api at scb.se
+reads scb_body.txt (json-body) and scb_url.txt (url). designed to work with api at scb.se
 }
 \details{
 response format in body from scb.se is defined as 'px', but scb_sup changes it to json.

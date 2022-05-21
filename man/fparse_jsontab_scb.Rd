@@ -16,7 +16,7 @@ table with correctly formated columns
 parse json respone from scb.se#'
 }
 \references{
-copied in its entiery from https://dittochdata.netlify.app/2018/06/10/ladda-hem-data-fr%C3%A5n-scb-del-2-anv%C3%A4nda-scb-s-api/
+copied in its entiery from https://dittochdata.netlify.app/2018/06/10/ladda-hem-data-fr\%C3\%A5n-scb-del-2-anv\%C3\%A4nda-scb-s-api/
 }
 \author{
 Christian Lindell

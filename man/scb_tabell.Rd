@@ -10,7 +10,5 @@ scb_tabell(path_to = p1)
 df with data from selected indicator on scb.se
 }
 \description{
-top-level, creats table
-
 inner function loops over all lookups in scb_metadata.
 }
