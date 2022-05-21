@@ -56,17 +56,19 @@ fparse_jsontab_scb <- function(ldatajson) {
     }
     else if (typ == "t" &
              !is.na(as.numeric(dftab[[1, i]])) &
-             !(ldatajson$columns$text[i] %in% c("år", "year"))) {
+             !(ldatajson$columns$text[i] %in% c("\u00e5r", "year"))) {
       dftab[i] <- as.numeric(dftab[[i]])
     }
     else if (typ == "t" &
              !is.na(as.numeric(dftab[[1, i]])) &
-             ldatajson$columns$text[i] %in% c("år", "year")) {
+             ldatajson$columns$text[i] %in% c("\u00e5r", "year")) {
       dftab[i] <- as.integer(dftab[[i]])
     }
   }
   return(dftab)
 }
+
+
 
 
 #' post, extract content and parse
