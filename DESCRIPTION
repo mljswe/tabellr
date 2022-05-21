@@ -1,6 +1,5 @@
 Package: tabellr
 Title: Create tabeles from SCB API
-Title: Create Tabeles from SCB API
 Version: 0.1
 Authors@R: 
     person("Martin", "Löwing Jensen", , "martinlowingjensen@gmail.com", role = c("aut", "cre"))
